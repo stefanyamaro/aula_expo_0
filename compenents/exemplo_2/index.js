@@ -2,15 +2,15 @@ import { View, Text } from 'react-native';
 
 import styles from './styles';
 
+import Mensagem from './mensagem';
+
 function Exemplo_2 () {
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo 2</Text>
 
-    <View style={styles.viewmensagem}>
-            <Text style={styles.mensagem}> Olá Stefany</Text>
-
-            </View>
+             <Mensagem />
+    
         </View>
     );
 }
